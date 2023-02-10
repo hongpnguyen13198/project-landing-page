@@ -1,0 +1,57 @@
+.body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.header,.footer{
+    background-color: aqua;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.footer{
+    color: grey;
+    align-items: flex-end;
+    font-weight: bold;  
+}
+
+.memes{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-size: large;
+    color: brown;
+    background-color: lightpink;
+}
+
+.images{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    border: 15px;
+}
+
+.links{
+    list-style: none;
+    background-color: yellow;
+    padding: 15px;
+    border: 15px;
+    width: 800px;
+}
+
+ul {
+    list-style-type: none;
+}
